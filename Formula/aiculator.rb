@@ -1,28 +1,28 @@
 class Aiculator < Formula
   desc "AI task swarm that runs coding tasks across harnesses"
   homepage "https://github.com/Grano22/aiculator"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Grano22/aiculator/releases/download/v0.6.0/aiculator_v0.6.0_darwin_arm64.tar.gz"
-      sha256 "d21de0f081ba5a549eabd0b15ce233880c0de58393b0499a2ce557311fa25dd3"
+      url "https://github.com/Grano22/aiculator/releases/download/v0.7.0/aiculator_v0.7.0_darwin_arm64.tar.gz"
+      sha256 "c19ba60c7cf83e4abbbbac7bfa14351947d83cb54ddabc500bc235fe044ee803"
     end
     on_intel do
-      url "https://github.com/Grano22/aiculator/releases/download/v0.6.0/aiculator_v0.6.0_darwin_amd64.tar.gz"
-      sha256 "a850cf96b84456fda861e454b081501dd5d86a1821db887abd7761202487c37b"
+      url "https://github.com/Grano22/aiculator/releases/download/v0.7.0/aiculator_v0.7.0_darwin_amd64.tar.gz"
+      sha256 "93803c756b44a8a1817444a4da2ea98c4c7e6a3a9585f15009d6ec54c208dbe4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Grano22/aiculator/releases/download/v0.6.0/aiculator_v0.6.0_linux_arm64.tar.gz"
-      sha256 "2093d75673289d0219eff3496e18742678d52153fb07b73ac2b57bdde2c61944"
+      url "https://github.com/Grano22/aiculator/releases/download/v0.7.0/aiculator_v0.7.0_linux_arm64.tar.gz"
+      sha256 "9fdde18be2a9d96a62b2b7ed78bd5557135cb0e9d3c541268a528263055673f9"
     end
     on_intel do
-      url "https://github.com/Grano22/aiculator/releases/download/v0.6.0/aiculator_v0.6.0_linux_amd64.tar.gz"
-      sha256 "9560982892bcbc05d98e5134a133cb26eb57441a432344945a324650c8064d12"
+      url "https://github.com/Grano22/aiculator/releases/download/v0.7.0/aiculator_v0.7.0_linux_amd64.tar.gz"
+      sha256 "72be665bb0433cfcd0434319f72768e12a4ad603099e0087d2749ce9df86c8f5"
     end
   end
 
